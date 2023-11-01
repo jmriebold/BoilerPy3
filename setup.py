@@ -11,7 +11,7 @@ with open(os.path.join(_BASE_DIR, 'README.md')) as readme_file:
 setup(
         name='boilerpy3',
         version=__version__,
-        python_requires='>=3.6.*',
+        python_requires='>=3.6',
         author='John Riebold',
         author_email='jmriebold@gmail.com',
         license='Apache 2.0',
